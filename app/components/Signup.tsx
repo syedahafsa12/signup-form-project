@@ -177,7 +177,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </form>
-                        <p className="hi text-gray-700 mt-3 text-left ">
+                        <p className="hi text-gray-700 mt-3 text-left mb-14">
                             By clicking “Start Application“, I agree to Mercury&apos;s{" "}
                             <span
                                 className="underline cursor-pointer"
