@@ -144,7 +144,7 @@ const Home = () => {
                                     <label className="text-sm">First name</label><br />
                                     <input
                                         type="text"
-                                        className="input text-sm"
+                                        className="input"
                                         required
                                     />
                                 </div>
