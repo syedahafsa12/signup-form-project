@@ -167,7 +167,7 @@ const Home = () => {
                                     <p className='mt-1 text-red-500 text-xs'>{passwordErrorMessage}</p>
                                 </div>
                                 <div className="mt-3">
-                                    <button className="button text-white w-fit text-sm" type="submit">Sign Up</button>
+                                    <button className="button text-white w-fit text-sm" type="submit" onClick={()=>router.push('/check-email')}>Sign Up</button>
                                 </div>
                             </div>
                         </form>
