@@ -160,7 +160,7 @@ const Home = () => {
                             Forgot You Password? <a href="/reset-password" className='underline'>click here to reset</a>
                         </p>
                                 <div className="mt-3">
-                                    <button className="button text- text-sm  rounded-full text-white" type="submit">Login</button>
+                                    <button className="button text- text-sm  rounded-full text-white" type="submit" onClick={() => router.push('/checkbox')}>Login</button>
                                 </div>
                             </div>
                         </form>
