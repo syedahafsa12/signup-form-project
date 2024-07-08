@@ -259,6 +259,9 @@ label {
         display: flex !important;
         bottom: 0 !important;
     }
+    .margin-l {
+        margin-left: 10px !important;
+    }
 }
 
 /* @tailwind base;
