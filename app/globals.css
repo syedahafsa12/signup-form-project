@@ -127,7 +127,19 @@ label {
     cursor: pointer;
     text-align: center;
 }
-
+.buttonn {
+    padding: 2rem 2rem !important;
+    font-size: 0.8rem;
+    padding: 10px 20px !important;
+    background: rgb(125, 151, 255) !important;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.bg-box{
+    background-color: rgba(238, 238, 245, 1);
+}
 .mai {
     height: 999px;
 }
@@ -151,6 +163,9 @@ label {
     .image-box {
         display: flex !important;
     }
+    .buttonn{
+        display: none !important;
+    }
 }
 
 @media (max-height: 2560px) and (min-width: 1301px) {
@@ -160,6 +175,9 @@ label {
     
     .image-box {
         display: flex !important;
+    }
+    .buttonn{
+        display: none !important;
     }
 }
 /* @media (max-height:1300px) and (min-width: 769px) {
@@ -206,6 +224,9 @@ label {
     .head1 {
         margin-top: 100px !important;
     }
+    .buttonn{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 450px) and (min-width:320px) {
@@ -227,6 +248,16 @@ label {
         display: none !important;
         justify-content: center;
         align-items: center;
+    }
+    .foot{
+        margin-bottom: 60px !important;
+    }
+    .one{
+        margin-bottom: 5px !important;
+    }
+    .buttonn{
+        display: flex !important;
+        bottom: 0 !important;
     }
 }
 

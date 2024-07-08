@@ -54,13 +54,20 @@ const Stagethird: React.FC = () => {
             </center>
 
             <div className="foot" style={{ backgroundColor: 'rgba(248, 248, 251, 1)', textAlign: 'left', padding: '10px 0', position: 'absolute', bottom: 0, left: 0, width: '100%' }}>
+                
                 <p className="copyright1 mt-1 ml-4 text-md font-dm" style={{ marginTop: 'auto', marginLeft: '5px', marginRight: '5px', textAlign: 'left', fontSize: '17px', maxWidth: '100%', overflowWrap: 'break-word', wordWrap: 'break-word', wordBreak: 'break-word', hyphens: 'auto' }}>
                     Franchain is a financial technology company, not a bank. Banking services are provided by trusted regulated banking partners including but not limited to JP Morgan, Barclays and Credit Suisse.
                 </p>
-                <p className="font-bold m-2 ml-4">
-                    Need A Help? <span className="ml-3">Back to dashboard</span> <span className="ml-3">Terms</span> <span className="ml-3">Privacy policy</span> <span className="ml-3">Sign out and continue later</span>
+                <p className="font-bold m-2 ml-4 copyright2">
+                    Need A Help? <span className="ml-3 one">Back to dashboard</span> <span className="ml-3 two">Terms</span> <span className="ml-3">Privacy policy</span> <span className="ml-3">Sign out and continue later</span>
                 </p>
+                <div>
+            <div className="mt-auto w-full bg-box ">
+            <button className="buttonn text-white text-center mt-5 w-full py-6 text-md ml-2 mr-2" type="submit"><p className='text-center ml-44'>Continue</p></button>
             </div>
+            </div>
+            </div>
+           
             
         </div>
     );
