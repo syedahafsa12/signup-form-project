@@ -4,6 +4,233 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+html,
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-section {
+    background: rgba(248, 248, 251, 1);
+}
+
+.box {
+    padding-top: 10rem !important;
+}
+
+.textt1 {
+    font-size: 23px !important;
+    font-weight: 550 !important;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.textt2 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-align: center;
+}
+
+.overlayImage {
+    width: 427.62px;
+    height: 327px;
+    opacity: 1;
+}
+
+.text1 {
+    font-size: 23px !important;
+    font-weight: 500;
+    line-height: 33.57px;
+    text-align: left;
+}
+
+.text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-align: left;
+}
+
+.font-dm {
+    font-family: "DM Sans", sans-serif;
+}
+
+.bgj {
+    background-color: rgba(248, 248, 251, 1);
+}
+
+.input {
+    width: 100%;
+    height: 29px !important;
+    padding: 3px;
+    border: 1px solid rgba(177, 183, 214, 1);
+    border-radius: 4px;
+}
+
+.hi {
+    font-size: 10px !important;
+}
+
+.logo {
+    z-index: 100;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+label {
+    font-size: 11px !important;
+}
+
+.button {
+    padding: 6px 20px !important;
+    background: rgba(206, 214, 247, 1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box {
+    padding-top: 5rem !important;
+    font-size: 0.8rem;
+}
+
+.container {
+    margin-top: 0.5rem;
+}
+
+.label {
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    padding: 0.2rem;
+}
+
+.button1 {
+    padding: 0.2rem 0.5rem !important;
+    font-size: 0.8rem;
+    padding: 6px 20px !important;
+    background: rgba(206, 214, 247, 1) !important;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mai {
+    height: 999px;
+}
+
+/* @media (max-height: 1301px) and (min-width: 1263px) {
+    .head1 {
+        margin-top: 150px !important;
+    }
+    
+    .image-box {
+        display: flex !important;
+    }
+} */
+
+
+@media (max-height: 1300px) and (min-width: 765px) {
+    .head1 {
+        margin-top: 150px !important;
+    }
+   
+    .image-box {
+        display: flex !important;
+    }
+}
+
+@media (max-height: 2560px) and (min-width: 1301px) {
+    .head1 {
+        margin-top: 130px !important;
+    }
+    
+    .image-box {
+        display: flex !important;
+    }
+}
+/* @media (max-height:1300px) and (min-width: 769px) {
+    .head1 {
+        margin-top: 130px !important;
+    }
+    
+    .image-box {
+        display: flex !important;
+    }
+} */
+
+/* @media (max-height: 430px) and (min-width: 320px) {
+    .head1 {
+        margin-top: 300px !important;
+    }
+    .image-box{
+        display: none !important;
+    }
+} */
+
+
+@media screen and (max-width: 768px) and (min-width:451px) {
+    .right-section {
+        display: none !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-box {
+        display: flex !important;
+    }
+
+    .logo-hide {
+        display: flex !important;
+    }
+
+    .box {
+        justify-content: center !important;
+        justify-items: center !important;
+        justify-self: center !important;
+    }
+    
+    .head1 {
+        margin-top: 100px !important;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width:320px) {
+    
+
+    .image-box {
+        display: flex !important;
+    }
+
+    .logo-hide {
+        display: flex !important;
+    }
+
+    
+    .head1 {
+        margin-top: 80px !important;
+    }
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,7 +248,8 @@ body {
     top: 0;
     left: 0;
 }
-.right-section{
+
+.right-section {
     background: rgba(248, 248, 251, 1);
 
 }
@@ -66,9 +294,13 @@ body {
     line-height: 22.04px;
     text-align: left;
 }
+.font-dm{
+    font-family: "DM Sans", sans-serif;
+}
 
-
-
+.bgj{
+    background-color: rgba(248, 248, 251, 1);
+}
 .input {
     width: 100%;
     height: 29px !important;
@@ -122,14 +354,36 @@ label {
     padding: 0.2rem;
 }
 
-.button {
-    padding: 0.2rem 0.5rem;
+.button1 {
+    padding: 0.2rem 0.5rem !important;
     font-size: 0.8rem;
+    padding: 6px 20px !important;
+    background: rgba(206, 214, 247, 1) !important;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    
+    
+    
 }
-
+.mai{
+    height:999px;
+    
+}
 @media (max-height: 600px) {
     .box {
         font-size: 0.6rem;
+    }
+}
+@media (max-height: 1301px) and (min-width: 1263px) {
+    .head1 {
+        margin-top: 150px !important;
+    }
+   
+@media (max-height: 2560px) and (min-width: 1301px){
+    .head1 {
+        margin-top: 3.5rem !important;
     }
 }
 
@@ -145,10 +399,11 @@ label {
         display: none !important;
         justify-content: center;
         align-items: center;
-        
+
     }
+
     .logo-hide {
-        display:flex !important;
+        display: flex !important;
     }
 
     .box {
@@ -156,5 +411,4 @@ label {
         justify-items: center !important;
         justify-self: center !important;
     }
-}
-
+} */
