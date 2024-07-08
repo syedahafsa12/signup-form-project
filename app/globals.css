@@ -223,6 +223,11 @@ label {
     .head1 {
         margin-top: 80px !important;
     }
+    .right-section {
+        display: none !important;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* @tailwind base;
