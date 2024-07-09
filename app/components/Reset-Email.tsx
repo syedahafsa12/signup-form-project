@@ -151,13 +151,6 @@ const Home = () => {
                             If you haven&apos;t received an email in 5 minutes, check your spam <span className='text-blue-400'>resend</span> or<span className='text-blue-400'> try a different email address.</span>
                         </p>
 
-
-                        {/* <p className="text-xs text-gray-700 mt-3  text-left mb-14 ">
-                        Thanks! If matches an email address we have on file, then we&apos;ve sent you an email containing further instructions for resetting your password.
-                        <br />
-                        <br />
-                        If you haven&apos;t received an email in 5 minutes, check your spam <span className='text-blue-400'>resend</span> or<span className='text-blue-400'> try a different email address.</span> 
-                        </p> */}
                     </div>
                 </div>
             </div>

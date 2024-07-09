@@ -61,7 +61,7 @@ const Home = () => {
 
     return (
         <div className="flex flex-col h-screen">
-          
+
             <div className="left-top flex h-full">
                 <div className="right-section w-full md:w-1/2 relative flex items-center justify-center ">
                     <Image
@@ -96,7 +96,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="margin-l h-full md:w-1/2 flex items-center ml-20">
-                <div className="logo-hide hidden absolute top-1 left-0 z-40 p-4">
+                    <div className="logo-hide hidden absolute top-1 left-0 z-40 p-4">
                         <Image
                             src="/four.png"
                             alt="Logo"
@@ -104,42 +104,42 @@ const Home = () => {
                             height={50}
                         />
                     </div>
-             
-                <div className='absolute top-0 right-0 mt-3 z-40 p-4'>
-                    
-                <div style={styles.loginContainer}>
-                        <Link href="/">
-                            <div style={styles.loginText}>
-                                Create Acount
-                                <span style={styles.arrow}>
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        className="lucide lucide-chevron-right">
-                                        <path d="m9 18 6-6-6-6" />
-                                    </svg>
-                                </span>
-                            </div>
-                        </Link>
+
+                    <div className='absolute top-0 right-0 mt-3 z-40 p-4'>
+
+                        <div style={styles.loginContainer}>
+                            <Link href="/">
+                                <div style={styles.loginText}>
+                                    Create Acount
+                                    <span style={styles.arrow}>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="lucide lucide-chevron-right">
+                                            <path d="m9 18 6-6-6-6" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
                     <div className="box  p-4 w-full max-w-sm">
                         <center>
                             <h2 className="text1 mb-4 text-lg ">Login to Franchain</h2>
-                          
+
                         </center>
 
                         <form action="" onSubmit={handleSubmit}>
                             <div className="container space-y-3">
-                            
-                                
+
+
                                 <div>
                                     <label className="text-sm">Email</label><br />
                                     <input type="email" className="input " required />
@@ -154,20 +154,20 @@ const Home = () => {
                                         maxLength={12}
                                         required
                                     />
-                                 
+
                                 </div>
                                 <p className="hi text-gray-700 mt-3 text-left mb-14 ">
-                            Forgot You Password? <a href="/reset-password" className='underline'>click here to reset</a>
-                        </p>
+                                    Forgot You Password? <a href="/reset-password" className='underline'>click here to reset</a>
+                                </p>
                                 <div className="mt-3">
                                     <button className="button text- text-sm  rounded-full text-white" type="submit" onClick={() => router.push('/checkbox')}>Login</button>
                                 </div>
                             </div>
                         </form>
-                        
-                       
+
+
                     </div>
-                    
+
                 </div>
             </div>
         </div>
